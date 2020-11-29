@@ -4,7 +4,7 @@ Escribe las reglas SASS necesarias para obtener el diseño deseado.
 
 ## Requisitos
 
-0. Fíjate que el contenido de __main__ no está centrado, ni tiene un ancho máximo definido. Busca en **base/helpers** una clase adecuada para ello y añádela al tag main.
+0. Fíjate que el contenido de __main__ no está centrado, ni tiene un ancho máximo definido. Busca en **base/_helpers.scss** una clase adecuada para ello y añádela al tag main.
 
 1. Escribe en **pages/_home.scss** una [regla SASS anidada](https://www.w3schools.com/sass/sass_nesting.asp), que permita alinear el texto en el centro para los tags __h1, p, figure, #img_caption__
 
