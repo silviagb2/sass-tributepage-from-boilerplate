@@ -1,5 +1,7 @@
 # Ejercicio SASS
 
+Este proyecto es un [**frork**](https://github.com/HugoGiraudel/sass-boilerplate) del **boilerplate** definido por @HugoGiraudel; siguiendo las guías de estilo de SASS para estructurar los ficheros SCSS.
+
 Escribe las reglas SASS necesarias para obtener el diseño deseado.
 
 ## Requisitos
