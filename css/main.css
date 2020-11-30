@@ -447,3 +447,7 @@ body {
 #main h1, #main p, #main figure, #main #img-caption {
   text-align: center;
 }
+
+#main #tribute-info #headline {
+  text-align: center;
+}
