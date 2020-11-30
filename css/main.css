@@ -440,3 +440,7 @@ body {
   position: absolute;
   width: 1px;
 }
+
+main h1, main p, main figure, main #img-caption {
+  text-align: center;
+}
