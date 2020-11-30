@@ -33,3 +33,27 @@ a {
     text-decoration: underline;
   }
 }
+
+
+
+h1 {
+  margin: 0;
+}
+
+ul {
+  list-style-type: square;
+  li{
+      margin-top: 10px;
+  }
+}
+
+image {
+  width: 100%;
+  height: auto;
+}
+
+@media(max-width:768px) {
+  body {
+      font-size: 1rem;
+  }
+}

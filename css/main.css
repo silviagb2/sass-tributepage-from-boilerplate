@@ -366,7 +366,7 @@ html {
  * Basic styles for links
  */
 a {
-  color: #5037CD;
+  color: #5037cd;
   text-decoration: none;
 }
 a:hover, a:active, a:focus {
@@ -374,6 +374,27 @@ a:hover, a:active, a:focus {
   text-decoration: underline;
 }
 
+h1 {
+  margin: 0;
+}
+
+ul {
+  list-style-type: square;
+}
+ul li {
+  margin-top: 10px;
+}
+
+image {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 1rem;
+  }
+}
 /**
  * Basic typography style for copy text
  */
@@ -441,24 +462,18 @@ body {
   width: 1px;
 }
 
-h1 {
-  margin: 0;
-}
-
 #main {
   background-color: #ededed;
 }
 #main h1, #main p, #main figure, #main #img-caption {
   text-align: center;
 }
+@media (min-width: 768px) {
+  #main #image {
+    border: solid #5037cd 5px;
+  }
+}
 
 #main #tribute-info #headline {
   text-align: center;
-}
-
-ul {
-  list-style-type: square;
-}
-ul li {
-  margin-top: 10px;
 }

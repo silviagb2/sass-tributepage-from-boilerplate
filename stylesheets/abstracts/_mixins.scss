@@ -32,3 +32,7 @@
   }
 }
 
+@mixin addBorder ($border-width) {
+  border: solid $brand-color $border-width;
+}
+
