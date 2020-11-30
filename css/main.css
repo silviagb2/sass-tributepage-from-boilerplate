@@ -366,7 +366,7 @@ html {
  * Basic styles for links
  */
 a {
-  color: #e50050;
+  color: #5037CD;
   text-decoration: none;
 }
 a:hover, a:active, a:focus {
@@ -441,6 +441,10 @@ body {
   width: 1px;
 }
 
+h1 {
+  margin: 0;
+}
+
 #main {
   background-color: #ededed;
 }
@@ -450,4 +454,11 @@ body {
 
 #main #tribute-info #headline {
   text-align: center;
+}
+
+ul {
+  list-style-type: square;
+}
+ul li {
+  margin-top: 10px;
 }
